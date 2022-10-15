@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Tutorials </title>
+
+    <style>
+        .ball {
+            width: 50px;
+            height: 50px;
+            background-color: aqua;
+            border-radius: 50%;
+            animation-name: move-around;
+            animation-duration: 10s;
+            position: relative;
+            animation-delay: 3s;animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            /* animation-direction: reverse; */
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes move-around {
+
+            0%{
+                top: 0;
+                left: 0;
+                background-color: aqua;
+            }
+            10%{
+                top:0;
+                left:300px;
+                background-color: skyblue;
+                /* border: 2px solid aqua; */
+            }
+            20%{
+                top: 0;
+                left: 600px;
+                background-color: blue;
+            }
+            30%{
+                top: 300px;
+                left: 600px;
+                background-color: black;
+            }
+            40%{
+                top: 600px;
+                left: 600px;
+                background-color: red;
+            }
+            50%{
+                top: 600px;
+                left: 300px;
+                background-color: yellow;
+            }
+            60%{
+                top: 600px;
+                left: 0;
+                background-color: orange;
+            }
+            70%{
+                top: 300px;
+                left: 0;
+                background-color: purple;
+            }
+            80%{
+                top: 0;
+                left: 0;
+                background-color: darkblue;
+            }
+            90%{
+                /* width: 500px; */
+                background-color: lightcoral;
+                top: 300px;
+                left: 300px;
+            }
+            100%{
+                top: 0;
+                left: 0;
+                background-color: chartreuse;
+            }            
+
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="ball"></div>
+    
+</body>
+</html>
