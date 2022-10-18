@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+.fav-subject {
+    border: 3px solid green;
+}
+
+.maths {
+    background-color: aquamarine;
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+
+.physics {
+    background-color: antiquewhite;
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+
+.computer {
+    background-color: bisque;
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+
+.chemistry {
+    background-color: lightcoral;
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+
+.fav-subject::after {
+    content: "";
+    display: block;
+    clear: both;
+}
