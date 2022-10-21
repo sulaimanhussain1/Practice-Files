@@ -1,0 +1,122 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto&display=swap'); */
+
+                   /* FONTS */
+body {
+    font-family: 'Bungee Spice', cursive;
+}
+
+/* p {
+    font-size: 20px;
+    line-height: 40px ;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    font-weight: 700;
+} */
+
+                /* BORDERS PADDING and MARGIN*/
+/* 
+h1{
+    border: 3px solid black ;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}                 */
+
+               
+/* p{ 
+    border: 3px solid red;
+     padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px; 
+    padding: 40px;
+    padding: 0px 40px 0px 20px;
+    padding: 30px 40px;
+    margin-top: 50px;
+}                 */
+
+                   /* Block-Level and Inline Elements     */
+                  
+/* h1{
+    border: 3px solid red;
+    display: inline;
+}                   
+ 
+
+p{
+    border: 3px solid black;
+    display: inline;
+}
+
+a{
+    border: 3px solid blue;
+    display: block;
+} */
+
+
+                         /* Specificity*/
+/* ul.mysongs li.fav {
+    color: red;
+}                                
+ul li.fav {
+    color: blue;
+}  
+                        */
+
+
+                        /* Box-Sizing */
+
+
+/* .container1 {
+    border: 20px solid red;
+    margin-bottom: 20px;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.container2 {
+    border: 20px solid green;
+    width: 50%;
+    padding: 10px;
+} */
+
+
+                        /* PSEUDO CLASSES  Link . Visited . Hover . Active  */
+/* 
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: aqua;
+}
+
+a:hover {
+    color: bisque;
+    background-color: blue;
+}
+
+a:active {
+    color: black;
+} */
+
+/* input:focus {
+    padding: 6px;
+    outline: none;
+    border: 2px solid green;
+}
+
+input:required {
+    color:white;
+    background-color: black;
+}
+                         */
+
+
+/* p:first-child {
+    background-color: aqua;
+}
+
+p:first-of-type {
+    background-color: lightcoral;
+} */
