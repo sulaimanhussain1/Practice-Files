@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive 2 </title>
+
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+
+        .box-wrapper{
+            border: 2px solid black;
+        }
+
+        .box1{
+            width: 48%;
+            background-color: lightgrey;
+            float: left;
+            padding: 1rem;
+        }
+
+        .box2 {
+            width: 48%;
+            background-color: lightgrey;
+            float: right;
+            padding: 1rem;
+        }
+
+        .box-wrapper::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        @media (max-width : 1625px ){
+            .box1 , .box2 {
+                float: none;
+                width: 100%;
+                background-color: aquamarine;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    
+      <div class="box-wrapper">
+        <div class="box1">
+            <h1>Maths</h1>
+            <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id inventore quidem sint saepe. Veritatis veniam sunt recusandae quo nobis, dolorem culpa minus vitae, in fuga quia debitis, autem officiis numquam. Ex voluptatibus voluptatem in aperiam eos autem quaerat iure odit obcaecati, porro reprehenderit dolorem quos molestias dicta, accusantium perspiciatis molestiae?</P>
+        </div>
+        <div class="box2">
+            <h1>Physics</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit quaerat, illum nam non id quis corrupti consequatur ad autem et, numquam sequi, maiores voluptas excepturi! Perspiciatis nemo dolor iure consectetur quisquam laboriosam architecto fugit in eligendi laborum quasi explicabo quos hic ipsum, aliquam impedit facere minima. Numquam omnis quaerat dolor?</p>
+        </div>
+      </div>
+
+</body>
+</html>
