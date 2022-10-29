@@ -1,0 +1,19 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.green{
+    color: rgb(5, 68, 5);
+}
+
+.dark{
+    background-color: #dfd5d5c9;
+}
+
+#grey {
+    background-color: rgb(231, 227, 227);
+}
+
+.aqua {
+    color: aqua;
+}
