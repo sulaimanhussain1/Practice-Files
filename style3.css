@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+    /* display: inline-block; */
+    border: 2px solid lightgrey;
+    background-color: lightgray;
+    width: 1200px;
+    text-align: center; 
+    padding: 10px;
+    margin: 20px auto;
+    text-transform: uppercase;
+    /* width: 300; */
+}
+
+li {
+    display: inline-block;
+    /* border: 2px solid black; */
+    margin: 10px;
+    border-bottom: 2px solid black;
+
+}
+
+.section1{
+    width: 1200px;
+    margin: 30px auto;
+}
+
+.section2{
+    width: 1200px;
+    margin: 30px auto;   
+}
+
+.section3{
+    width: 1200px;
+    margin: 30px auto;
+}
+
+h2 {
+    border-bottom: 2px solid black;
+}
